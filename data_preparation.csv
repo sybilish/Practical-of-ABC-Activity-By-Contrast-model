@@ -1,0 +1,132 @@
+﻿,biosample,description,Inclusion criteria,,accessibility feature,data source,hic,data processing protocol
+"AD
+核
+心
+部
+位","Hippocampus
+海马",组成大脑边缘系统的一部分，位于大脑皮质下方，担当着关于短期记忆、长期记忆，以及空间定位的作用。,"选择原因：阿兹海默症中，海马体是首先受到损伤的区域，病理变化为海马萎缩，表现症状为记忆力衰退以及方向知觉的丧失。该数据来源于对照组（无阿尔兹海默症）死后采集的原始脑样本。样本一共有4条run数据，quality graph无明显差异，大部分碱基Phred Quality Score≥40，因此选择其中一个数据集进行分析。
+
+测序平台：Illumina HiSeq 4000
+
+参考基因组:  GRCh38",,ATAC-seq,SRR11442380 : Run Browser : SRA Archive : NCBI (nih.gov),"no
+(从fastq原始文件转成的hic格式作为输入，总是报错)",sra to tagAlign
+"内
+嗅
+皮
+质","Medial Entorhinal Cortex
+内侧内嗅皮层",内嗅皮质位于海马旁回的前部，是大脑内记忆形成和空间导航的核心区域。它通过与海马和新皮质的连接，在记忆编码、存储和检索中发挥重要作用。,"选择原因：内嗅皮质是阿尔茨海默症病理变化最早受影响的区域之一。在疾病早期，内嗅皮质中的神经元就开始出现退化和损伤。Tau蛋白的异常磷酸化导致的神经纤维缠结最早出现在内嗅皮质中。这些缠结会破坏神经元的正常功能，最终导致神经元死亡。样本来源于神经发育正常的成年男性。
+
+测序平台：Illumina NovaSeq 6000
+
+参考基因组:  GRCh38",,ATAC-seq,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM7822184,no,bedpe to tagAlign（snATAC）
+,"Lateral Entorhinal Cortex
+外侧内嗅皮层",,,,ATAC-seq,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM7822175,no,bedpe to tagAlign（snATAC）
+"丘
+脑","Mediodorsal Thalamus
+背内侧丘脑",即丘脑背内侧核，是丘脑内侧核群最突出的核。与大脑前额叶皮层有着密切的联系，在将来自感觉系统的信息整合并传递到大脑皮层的过程中起着重要作用，尤其是在与记忆和情绪相关的功能中。背内侧丘脑与额皮质间通路损伤时，可引起感情行为改变，与学习、记忆有关。人的背内侧丘脑损伤，可引起记忆丧失，特别是时间概念的混乱。,"选择原因：背内侧丘脑与前额叶皮质的连接对工作记忆重要。它还与海马和内嗅皮质等记忆相关结构相互作用，参与长时记忆的整合和检索。在阿尔茨海默症患者中，背内侧丘脑的神经元会受到病理性变化的影响，包括神经纤维缠结的形成和神经元损失。样本来源于神经发育正常的成年男性。
+
+测序平台：Illumina NovaSeq 6000
+
+参考基因组:  GRCh38",,ATAC-seq,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM7822205,no,bedpe to tagAlign（snATAC）
+"血
+脑
+屏
+障","brain_pericyte
+脑周细胞",与微血管的血管壁结合的一类细胞，在维持血脑屏障方面有重要作用。,"选择原因：阿尔茨海默症患者常表现出血脑屏障功能障碍。研究发现，脑周细胞功能受损可能导致血脑屏障的破坏，使得有害物质如β淀粉样蛋白进入大脑，进而加剧神经退行性病变。同时β淀粉样蛋白的沉积不仅影响神经元，还对脑周细胞有毒性作用。可能诱导脑周细胞的凋亡或功能紊乱，进而加剧血脑屏障的破坏和神经炎症。
+
+测序平台：Illumina Genome Analyzer Iix，Illumina HiSeq 2000
+
+参考基因组:  GRCh38",,DNase-seq,https://www.encodeproject.org/files/ENCFF582YGW/,"https://www.encodeproject.org/files/ENCFF485VNE/
+@@download/ENCFF485VNE.hic",bam
+,"brain microvascular endothelial cells
+脑微血管内皮细胞",位于大脑微血管（包括毛细血管和小动脉）的内壁，是血脑屏障的核心组成部分。,"选择原因：在阿尔茨海默症中，血脑屏障的完整性常受到损害，BMECs的紧密连接被破坏。这种破坏使得β淀粉样蛋白等有害物质更容易穿过血脑屏障，进入大脑并沉积，促进疾病进展。BMECs功能障碍还可能导致脑血流的减少。这种慢性缺血状态易引起缺氧缺血性脑损害，促进神经退行性病变。
+
+测序平台：Illumina Genome Analyzer IIx
+
+参考基因组:  GRCh38",,DNase-seq,https://www.encodeproject.org/files/ENCFF788MPI/,"https://www.encodeproject.org/files/ENCFF068LTZ/
+@@download/ENCFF068LTZ.hic",bam
+,"astrocytes of hippocampus
+海马体星体胶质细胞",星形胶质细胞通过提供营养支持、维持离子平衡和清除神经递质，有助于神经系统的健康和恢复过程。也通过调节突触传递和支持突触重塑来影响神经可塑性，可能与记忆的产生有关。,"选择原因：在阿尔茨海默症中，星形胶质细胞通常处于激活状态，这种状态被称为“反应性星形胶质细胞”。这些细胞在病理性情况下释放炎症因子，导致神经炎症，与神经元损伤和疾病进展密切相关。
+
+测序平台：Illumina Genome Analyzer IIx, Illumina Genome Analyzer I, Illumina HiSeq 2000
+
+参考基因组:  GRCh38",,DNase-seq,https://www.encodeproject.org/files/ENCFF997BOJ/,no,bam
+,"choroid plexus epithelial cell
+脉络丛上皮细胞",是脑室壁形成脉络丛处特化的管室膜细胞。脉络丛上皮细胞能分泌脑脊液，相邻细胞近顶端有紧密连接，构成血脑屏障。,"选择原因：脉络丛上皮细胞的功能障碍可能导致脑脊液生成的减少，影响脑内病理蛋白质的清除，从而加剧阿尔茨海默症的进程。
+
+测序平台：Illumina Genome Analyzer IIx, Illumina Genome Analyzer II, Illumina HiSeq 2000
+
+参考基因组:  GRCh38",,DNase-seq,https://www.encodeproject.org/files/ENCFF964EYE/,no,bam
+"大
+脑
+皮
+质
+等","middle temporal gyrus
+颞中回",大脑颞叶的一个脑回，位于颞下沟与颞上沟之间。参与脑部许多不同功能，如思考距离、识别人脸、情感识别、阅读理解。,"
+选择原因：
+
+大脑皮层通常认为与抽象的脑高级功能有关。阿尔兹海默症早期阶段影响的主要为近事记忆，此时可能对广泛的大脑新皮层影响不大。随着病情的进展，当记忆障碍较为显著时，其他大脑功能受累的情况也渐渐表现出来，词汇记忆进一步减退；对语言的理解力逐渐减退，渐渐不能执行较为复杂的指令；语言功能障碍加重，最后表现为失语，此阶段患者的大脑皮层出现病理性损伤。
+","测序平台：Illumina NovaSeq 6000
+
+参考基因组：GRCh38",DNase-seq,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM7822133,no,bedpe to tagAlign（snATAC）
+,"middle frontal gyrus  
+额中回",有研究显示，额中回与人的识字和算术能力相关。 还有研究认为额中回是反射和随意注意力的汇合处。,,"测序平台：Illumina NovaSeq 4000
+
+参考基因组：GRCh38",ATAC-seq,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4441734,no,"bigwig to tagAlign
+(https://cloud.tencent.com/developer/article/1838017)"
+,"Anterior Cingulate Cortex
+前扣带皮层",前扣带皮层位于大脑的内侧面，在额叶的扣带回前部。与VTA和杏仁核等脑区双向沟通，在情绪调节、决策制定、认知控制、错误监测中起重要作用。,,"测序平台：Illumina NovaSeq 6000
+
+参考基因组：GRCh38",ATAC-seq,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM7822148,no,bedpe to tagAlign（snATAC）
+,"posterior cingulate cortex  
+后扣带皮层",后扣带皮层与内侧颞叶和顶叶皮层等脑部结构均有连接，参与情绪的形象化。记忆调取中的情感因可能会导致后扣带皮层的激活。,,"测序平台：Illumina NovaSeq 6000
+
+参考基因组：GRCh38",DNase-seq,https://www.encodeproject.org/files/ENCFF984AFR/,"https://www.encodeproject.org/files/ENCFF800AYJ/
+@@download/ENCFF800AYJ.hic",bam
+,"dorsolateral prefrontal cortex
+背外侧前额叶皮层",与许多脑高级功能有关，如工作记忆、注意实施和自我控制。,,"测序平台：Illumina NovaSeq 6000
+
+参考基因组：GRCh38",DNase-seq,https://www.encodeproject.org/files/ENCFF266UVR/,"https://www.encodeproject.org/files/ENCFF994GNG/
+@@download/ENCFF994GNG.hic",bam
+,"prefrontal cortex  
+前额叶皮层",前额叶皮质涉及与计划相关的高层次认知活动、人格表现、作出决定的过程，以及调节社会活动、语言功能的某些方面等行为,,"测序平台：？
+
+参考基因组：GRCh38",ATAC-seq,https://personal.broadinstitute.org/bjames/AD_snATAC/fragments/D19-12529_fragments.bed.gz,no,bed to tagAlign
+,"frontal cortex
+额叶皮层",与人类语言的形成、语言表达、自主意识等高级功能有关。,,"测序平台：Illumina Genome Analyzer
+
+参考基因组：GRCh38",DNase-seq,https://www.encodeproject.org/files/ENCFF948TWI/,no,bam
+,"parietal lobe
+顶叶",顶叶为处理各类感觉信息的中枢，同时也和语言、记忆等功能有关。,,"测序平台：Illumina NovaSeq 6000
+
+参考基因组：GRCh38",ATAC-seq,"https://trace.ncbi.nlm.nih.gov/Traces/index.html?view=
+run_browser&acc=SRR11442504&display=metadata",no,sra to tagAlign（scATAC）
+,"insular cortex
+岛叶",向内凹陷的皮层区域，被包埋在外侧裂之内，与额叶，颞叶和顶叶的皮层相连通，内感觉中枢。在多种感知觉、情感处理、自主神经调节、体内平衡以及意识体验等方面有关；还参与疼痛感知和社交情感的处理，如同情和共情。,,"测序平台：Illumina NovaSeq 6000
+
+参考基因组：GRCh38",ATAC-seq,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM7822166,no,bedpe to tagAlign（snATAC）
+"基
+底
+核","substantia nigra
+黑质",黑质是基底核的一个附属核团，是有关基底核间互相连络之重要构造，属于多巴胺系统。（帕金森症相关）,"
+选择原因：
+
+基底神经节与小脑一般认为与阿尔兹海默症的发源以及疾病进程无显著关联，因此作为对照组。","测序平台：Illumina NovaSeq 6000
+
+参考基因组：GRCh38",ATAC-seq,"https://trace.ncbi.nlm.nih.gov/Traces/index.html?view=
+run_browser&acc=SRR11442505&display=metadata",no,sra to tagAlign（scATAC）
+,"globus pallidus
+苍白球",基底核的输出核团，其功能失调往往会导致严重的运动障碍和神经精神疾病。,,"测序平台：Illumina HiSeq 2000
+
+参考基因组：GRCh38",DNase-seq,https://www.encodeproject.org/files/ENCFF376RKB/,no,bam
+,"head of caudate nucleus
+尾状核",和壳核一起作为基底核的输入核团，与运动控制有关，尤其是在精细运动和协调方面。,,"测序平台：Illumina NovaSeq 6000, Illumina HiSeq 4000
+
+参考基因组：GRCh38",DNase-seq,https://www.encodeproject.org/files/ENCFF605RHF/,"https://www.encodeproject.org/files/ENCFF711XSR/
+@@download/ENCFF711XSR.hic",bam
+"其
+他"," cerebellum 
+ 小脑",与学习、平衡等功能相关,,"测序平台：Illumina HiSeq 2500
+
+参考基因组：GRCh38",ATAC-seq,https://www.encodeproject.org/files/ENCFF111JBV/,no,"bam to tagAlign 
+(http://www.bio-info-trainee.com/8204.html)"
