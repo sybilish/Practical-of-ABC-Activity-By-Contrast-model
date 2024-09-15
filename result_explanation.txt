@@ -1,0 +1,10 @@
+1. ABC（Activity-by-contact）是一个根据可及性数据，比如Dnase-seq或ATAC-seq，以及接触数据，比如HiC，来预测enhancer-gene-pair的计算工具。																
+2. 针对每一个样本，ABC生成四个文件夹，Peaks、Neighborhoods、Predictions、Metrics；前两个是中间结果，Metrics包含简单的数据统计，最重要的结果是Predictions里面的内容。																
+3. Predictions中包含多个文件，如下																
+EnhancerPredictionsAllPutative.tsv.gz ：原始文件，所有预测到的增强子-基因对。有28列的详细信息。									
+EnhancerPredictionsAllPutativeNonExpressedGenes.tsv.gz ：原始文件基础上筛选“TargetGeneIsExpressed”列为FALSE的结果。									
+
+EnhancerPredictionsFull_threshold0.013_self_promoter.tsv ：ABC.Score＞threshold的子集；不保留promoter的行除非它是self-promoter的。									
+
+EnhancerPredictions_threshold0.013_self_promoter.tsv ：同上，但是精简为最重要的8列。									
+EnhancerPredictionsAllPutative.ForVariantOverlap.shrunk150bp.tsv.gz ：增强子区域的大小被压缩到了 150 bp（原本500）可以提高变异重叠等分析的分辨率或特异性。									
